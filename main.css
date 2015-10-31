@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400,500);
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url("https://unsplash.it/1600/900/?image=660");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header .title {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translatey(-50%);
+    -ms-transform: translatey(-50%);
+      transform: translatey(-50%);
+  font-size: 70px;
+  font-weight: 200;
+  color: #fff;
+}
+.header .svg {
+  position: absolute;
+  bottom: 20px;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  font-weight: 300;
+}
+
+.row { margin: 0; }
+
+.separator.colored #path1 {
+  fill: #8c93a8;
+  stroke: #8c93a8;
+}
+.separator.colored #path2 {
+  fill: #747a8d;
+  stroke: #747a8d;
+}
+
+.separator.white #path1 {
+  fill: #fff;
+  stroke: #fff;
+}
+.separator.white #path2 {
+  fill: #f7f7f7;
+  stroke: #f7f7f7;
+}
+
+.separator.clouds { display: block; }
+.separator.clouds path {
+  fill: #d7c0d0;
+  stroke: #d7c0d0;
+}
+
+.delay-animation { background: #8c93a8; }
+.delay-animation .element, .duration-animation .element {
+  position: relative;
+  width: 100%;
+  color: #fff;
+}
+.delay-animation .wrapper, .duration-animation .wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.delay-animation .text, .duration-animation .text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 60px;
+}
+
+.delay-animation .wrapper {
+  width: 500px;
+  height: 300px;
+}
+.delay-animation .wrapper .element {
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 1px 7px rgba(0,0,0,.05);
+  background: #fff;
+  color: #8C93A8;
+}
+
+.duration-animation .separator, .helper .separator {
+  position: absolute;
+  top: 0;
+}
+.duration-animation .wrapper {
+  width: 420px;
+  height: 420px;
+}
+.duration-animation .wrapper .element {
+  border-radius: 50%;
+  height: 420px;
+  margin-top: 100px;
+}
+
+.helper {
+  position: relative;
+  background: #8c93a8;
+}
+.helper .text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 45px;
+  color: #fff;
+}
+
+.offset-animation {
+  position: relative;
+  text-align: center;
+  border-bottom: none;
+}
+.offset-animation .wrapper {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.offset-animation .background {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.offset-animation .background img { width: 100%; }
+.offset-animation .element { width: 42px; }
+
+
+.offset-animation .element.second { margin-top: 13px; }
+.offset-animation .element.third { margin-top: 24px; }
+.offset-animation .element.forth { margin-top: 36px; }
+.offset-animation .element.fifth { margin-top: 48px; }
+.offset-animation .element.sixth { margin-top: 60px; }
+.offset-animation .element.seventh { margin-top: 72px; }
+.offset-animation .element.last { margin-top: 84px; }
+
+.offset-animation .text {
+  margin-top: 20px;
+  color: #8C93A8;
+}
+
+footer {
+  position: relative;
+  padding: 100px 0;
+  background: #d7c0d0;
+  text-align: center;
+  color: #fff;
+}
+footer a, footer a:hover { color: #fff; }
+footer .glyphicon {
+  font-size: 40px;
+  vertical-align: middle;
+  color: tomato;
+}
+footer .title {
+  font-weight: 400;
+  font-size: 40px;
+}
+footer .author, footer .link {
+  position: absolute;
+  bottom: 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+footer .link { left: 10px; }
+footer .author { right: 10px; }
