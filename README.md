@@ -4,6 +4,8 @@ You need your animations to trigger every time the element enters the viewport? 
 
 Tadaam is a lightweight, well-structured plugin, built on jQuery and animate.css. You can fully enjoy all the animations provided by animate.css, enhanced with your own customizations.
 
+[Demo here](https://hexbridge.github.io/tadaaam/)
+
 ### Basic Usage
 
 1. Include jquery and animate.css
