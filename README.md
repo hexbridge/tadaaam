@@ -8,7 +8,7 @@ Tadaam is a lightweight, well-structured plugin, built on jQuery and animate.css
 
 ### Basic Usage
 
-1. Include jquery and animate.css
+1. Include jQuery.js and animate.css
   ```
   <link rel="stylesheet" href="/path-to-css/animate.css"/>
   <script src="/path-to-script/jquery.min.js"></script>
